@@ -1,83 +1,24 @@
-.body {
-    display: table;
-    background-color: green;
-    overflow: hidden;
+@media only screen and (max-width: 64.9ch) {
+  body.siteIndex #sidebar #logo {
+      border: 1px dotted transparent;
+      align-self: flex-start;
+      padding: 7px 5px 6px 5px;
+  }
+  body.siteIndex #markdownBody section {
+      max-width: 100%;
+  }
+  body.siteIndex #markdownBody ul,
+  body.tags #markdownBody ul {
+      overflow-wrap: break-word;
+      margin-right: 0;
+  }
+  body.siteIndex #markdownBody li,
+  body.tags #markdownBody li {
+      padding: 1px 0;
+      margin: 2px 0 0 0;
+  }
+  body.siteIndex #markdownBody ul > li::before,
+  body.tags #markdownBody ul > li::before {
+      top: 0.25em;
+  }
 }
-
-.left-side {
-    background-color: #e3e3e3;
-    float: none;
-    border: 1px solid;
-    display: table-cell;
-
-    padding-bottom: 1000px;
-  margin-bottom: -1000px;
-
-}
-
-.right-side {
-    background-color: #999999;
-    float: none;
-    border: 1px solid;
-    display: table-cell;
-
-    padding-bottom: 1000px;
-  margin-bottom: -1000px;
-
-}
-
-.icon {
-    position: relative;
-    top: 10px;
-
-}
-
-.nav-name {
-    text-align: center;
-    position: relative;
-    top: 25px;
-    
-}
-
-
-
-
-
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  text-align: center;
-  transform: translate(30%, 100%);
-}
-
-.circular-image {
-  border-radius: 50%;
-  padding: 10px 10px 10px 10px;
-  float:left;
-}
-
-html, body
-{
-    height: 100%;
-    margin:0;
-    padding:0;
-}
-
-div {
-    position:relative;
-    height: 100%;
-    width:100%;
-}
-
-body {
-  background-color: #f2e6d9;
-}
-
-.vertical-menu a {
-  background-color: #eee; /* Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
-}
-
