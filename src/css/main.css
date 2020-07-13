@@ -29,15 +29,13 @@
   }
 
   #sidebar-links{
-    display:flex
-  }
-  #sidebar-links{
+    display:flex;
     flex-flow:row wrap;
     margin:.5em 0 0 0
   }
 
-  #sidebar a.links,#sidebar a.site{flex:1 1 20%}
-  #sidebar a.mail,#sidebar a.new,#sidebar a.r_gwern{padding:3px 10px;flex:1 1 auto}
+  #sidebar a.site,#sidebar a.words, #sidebar a.theory{flex:1 1 20%}
+  #sidebar a.new,#sidebar a.patreon{padding:3px 10px;flex:1 1 auto}
 
   
 }
