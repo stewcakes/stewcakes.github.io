@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Stewart, KS.</title>
+    <title>Up Tack</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -14,89 +14,26 @@
 </head>
 
 <body>
-    <!--
-    <div class="container-fluid">
-        <div class="row body">
-            
-            <div class="col-3 col-sm-2 col-md-2 col-lg-1 col-xl-1 left-side">
-                <nav class="nav navbar-dark navbar-toggleable-sm">    
-                    <div class="container-fluid">
-                    <img src="./src/images/lil_me.jpg" class="rounded-circle icon" alt="Meh." data-toggle="collapse" href="#demo" height="100px" width="100px">
+    
+    <div id="sidebar">
+        
+        <a id="logo" rel="home me contents" href="/index" title="Homepage: categorized list of articles index">
+            <img alt="Uptack.com Logo" src="/src/images/up-tack.png">
+        </a>
 
-                    <div id="demo" class="collapse">
-                        <ul class="nav nav-tabs" id="ajax_tabs">
-                            <li class="active"><a href="./src/loadme.php?value=home" data-toggle="tab" data-target="#home">Home</a></li>
-                            <li><a href="./src/loadme.php?value=about" data-toggle="tabajax" data-target="#me">About Me</a></li>
-                            <li><a href="./src/loadme.php?value=projects" data-toggle="tabajax" data-target="#projects">Projects</a></li>
-                            <li><a href="./src/loadme.php?value=writing" data-toggle="tabajax" data-target="#writing">Writing</a></li>
-                            <li><a href="./src/loadme.php?value=misc" data-toggle="tabajax" data-target="#misc">Cool Misc.</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+        <h1 class=vertical-center>Esau Nwachukwu</h1>
 
-            <script>
-                $('[data-toggle="tabajax"]').click(function(e) {
-                    e.preventDefault()
-                    var loadurl = $(this).attr('href')
-                    var targ = $(this).attr('data-target')
-                    $.get(loadurl, function(data) {
-                        $(targ).html(data)
-
-                    });
-                    $(this).tab('show')
-                });
-            </script>
-
-            
-
-            <div class="col-9 col-sm-10 col-md-10 col-lg-11 col-xl-11 right-side">
-                <div class='row-9'> 
-                    <h1>“A gift we cannot reject is not a gift” - Kluge (1975, 124)</h1>
-                </div>
-
-                <div class="row-2">
-                        <div class="tab-pane active" id="ajax_home"
-                          data-target="{% url common.views.ajax_home %}"></div>
-                        <div class="tab-pane" id="ajax_about"
-                          data-target="{% url common.views.ajax_about %}"></div>
-                        <div class="tab-pane" id="ajax_projects"
-                          data-target="{% url common.views.ajax_projects %}"></div>
-                        <div class="tab-pane" id="ajax_writing"
-                          data-target="{% url common.views.ajax_writing %}"></div>
-                        <div class="tab-pane" id="ajax_misc"
-                          data-target="{% url common.views.ajax_misc %}"></div>
-                          <p>This is HTML</p>
-                </div>
-            </div>
-
+        <div id="sidebar-links">
+            <a class="site" href="/About" title="Who I am online, and what I am like" rel="author">Me</a>
+            <a class="words" href="/Writing" title="A compilation of my poetry, creative writing and essay pieces" rel="author">Writing</a>
+            <a class="theory" href="/Theory" title="A compilation of more focused tech musings, as well as miscellaneous logic and code snippets" rel="author">Theory</a>
+            <a class="new" href="/Changelog" title="Changelog of what&#39;s new or updated">New</a>
+            <a class="patreon" href="#" title="Link to various donation portals to support my writing" rel="me">support me</a>
         </div>
+        
 
     </div>
--->
 
-    <!-- <img src="./src/images/lil_me.jpg" class="rounded-circle icon" alt="Meh." href="#demo" height="100px" width="100px"> -->
-
-    <div style="width:100%">
-        <div style="width:35%; background-color: #dfbf9f">
-
-            <!-- <img src="./src/images/lil_me.jpg" class="circular-image" height="150px" width="150px" id="#overlapthis"> -->
-            <img src="./src/images/lil_me.jpg" alt="lil me" class="circular-image" height="150px" width="150px">
-            <h1 class=vertical-center>Esau Kelechi Daniel Stewart</h1>
-
-            <nav class="vertical-menu">
-                <a href="#">Home</a>
-                <a href="#">Logic</a>
-                <a href="#">Code</a>
-                <a href="#">Poems</a>
-                <a href="#">Writing</a>
-            </nav>
-        </div>
-
-        <div style="width:65%; background-color: #f2e6d9">
-
-        </div>
-    </div>
     
 
 </body>
