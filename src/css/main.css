@@ -3,6 +3,8 @@
       border: 1px dotted transparent;
       align-self: flex-start;
       padding: 50px;
+      width:64px;
+      margin:1em 0 2em 0
   }
   body.siteIndex #markdownBody section {
       max-width: 100%;
@@ -22,20 +24,21 @@
       top: 0.25em;
   }
 
-  #sidebar{
-    font-variant:small-caps;
-    padding:0 4ch 0 1ch;
-    width:10ch
+  #sidebar-links a.new{
+    border-top:5px dotted rgb(255, 0, 0)
   }
-  #sidebar a#logo{
-    margin:1em 0 2em 0
+
+  #sidebar-links{
+    display:flex
   }
-  #sidebar a#logo img{
-    width:64px
+  #sidebar-links{
+    flex-flow:row wrap;
+    margin:.5em 0 0 0
   }
-  #sidebar a.new{
-    border-top:1px dotted #aaa
-  }
+
+  #sidebar a.links,#sidebar a.site{flex:1 1 20%}
+  #sidebar a.mail,#sidebar a.new,#sidebar a.r_gwern{padding:3px 10px;flex:1 1 auto}
+
   
 }
 
