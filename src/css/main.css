@@ -1,0 +1,83 @@
+.body {
+    display: table;
+    background-color: green;
+    overflow: hidden;
+}
+
+.left-side {
+    background-color: #e3e3e3;
+    float: none;
+    border: 1px solid;
+    display: table-cell;
+
+    padding-bottom: 1000px;
+  margin-bottom: -1000px;
+
+}
+
+.right-side {
+    background-color: #999999;
+    float: none;
+    border: 1px solid;
+    display: table-cell;
+
+    padding-bottom: 1000px;
+  margin-bottom: -1000px;
+
+}
+
+.icon {
+    position: relative;
+    top: 10px;
+
+}
+
+.nav-name {
+    text-align: center;
+    position: relative;
+    top: 25px;
+    
+}
+
+
+
+
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  transform: translate(30%, 100%);
+}
+
+.circular-image {
+  border-radius: 50%;
+  padding: 10px 10px 10px 10px;
+  float:left;
+}
+
+html, body
+{
+    height: 100%;
+    margin:0;
+    padding:0;
+}
+
+div {
+    position:relative;
+    height: 100%;
+    width:100%;
+}
+
+body {
+  background-color: #f2e6d9;
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
