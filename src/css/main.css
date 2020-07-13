@@ -2,7 +2,7 @@
   body.siteIndex #sidebar #logo {
       border: 1px dotted transparent;
       align-self: flex-start;
-      padding: 7px 5px 6px 5px;
+      padding: 10px 15px 10px 10px;
   }
   body.siteIndex #markdownBody section {
       max-width: 100%;
